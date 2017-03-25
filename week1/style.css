@@ -6,17 +6,20 @@ html {
 }
 
 body {
-  background-color: CornflowerBlue;  /* #6495ED */
+  background-color: #f7f7f7; /*CornflowerBlue;  /* #6495ED */
 }
 
-nav {
-  text-transform: uppercase;
+header, nav, footer {
   color: white;
   /*display: table-row;*/
 }
 
+nav {
+  text-transform: uppercase;
+}
+
 table {
-  border-width: thin: 
+  border-width: thin:
   border-color: white;
 }
 
