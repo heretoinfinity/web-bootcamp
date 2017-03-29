@@ -59,7 +59,7 @@ li {
   /*display: inline-block;*/
 }
 /*Welcome area*/
-.welcome {
+section.welcome {
   /*margin: 0;
   padding: 0;*/
   border: solid;
