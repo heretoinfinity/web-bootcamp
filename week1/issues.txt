@@ -1,0 +1,5 @@
+Issue | Description
+--------------------------------------------------------------------------------
+0000  | containing div class="welcome" is squashed and its constituents,
+      | article="welcome", aside="welcome" appear below it
+--------------------------------------------------------------------------------
