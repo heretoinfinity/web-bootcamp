@@ -36,22 +36,24 @@ nav {
   color: white;
   background-color: CornflowerBlue; /* #6495ED */
   border-style: solid;
-  border-width: 0 1px 1px 0;
+  border-width: 0 1px 1px 1px;
   border-color: none white black white;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   padding: 0;
 }
 
-li {
+nav li {
   display: inline;
   border-style: solid;
-  border-width: 0 1px 1px 1px;
+  border-width: 0 1px 0 0;
   border-color: white;
   text-align: center;
-  margin: 1%;
+  /*margin: 1%;*/
+  /*padding: 1%;*/
+  height: inherit;
 }
 
 /*Content area*/
@@ -97,6 +99,14 @@ aside.welcome {
   top: 5%;
   right: 5%;*/
 
+}
+
+/*Left-pane*/
+#left-pane {
+  clear: both;
+  width: 33.3%
+  display: inline-block;
+  float: left;
 }
 
 /*Footer*/
