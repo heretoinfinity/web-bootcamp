@@ -69,9 +69,6 @@ nav li {
 
 #welcome {
   box-sizing: border-box;
-  width: 70%;
-  display: inline-block;
-  float: left;
   /*display: inline;*/
 }
 
@@ -80,20 +77,63 @@ nav li {
 /*Left-pane*/
 #style-example {
   clear: both;
-  width: 33.3%
+  width: 50%;
   display: inline-block;
   float: left;
 }
 
 #about-designer {
-  clear: left;
+  width: 50%;
+  float: left;
 }
 
 /*Right-pane*/
 #right-pane {
   width: 30%;
   float: right;
-  display: inline-block;
+  padding: 2%;
+}
+
+#right-pane > * {
+  padding: 5%;
+}
+
+#box {
+  border: solid 1px grey;
+  font-size: small;
+}
+
+#nested-menu {
+  margin: 10% 0 0 0;
+}
+
+#nested-menu > a {
+  display: block;
+  padding: 3.5%;
+  font-size: 80%;
+}
+
+.sub-menu {
+  text-indent: 1em;
+}
+
+#favorite-links > a {
+  display: block;
+  text-indent: 1em;
+  font-size: 80%;
+  padding: 2%;
+}
+
+#search-site {
+  margin: 10% 0;
+}
+
+#search-site > form {
+  padding: 0 0 0 1em;
+}
+
+#entry-box {
+  width: 65%;
 }
 /*Footer*/
 footer {

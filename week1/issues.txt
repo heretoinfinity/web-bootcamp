@@ -6,5 +6,5 @@ Issue | Description
 0001  |navigation labels don't have space within their borders, padding makes
       |the situation worse
 --------------------------------------------------------------------------------
-0002  |right pane not floating to the right even though width=66.6%
+0002X |SOLVED: right pane not floating to the right even though width=66.6%
 --------------------------------------------------------------------------------
