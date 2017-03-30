@@ -62,9 +62,9 @@ nav li {
 }
 
 #main-content {
-  width: 70%
+  width: 70%;
   float: left;
-  display: inline-block;
+  padding: 2%;
 }
 
 #welcome {
@@ -72,7 +72,6 @@ nav li {
   width: 70%;
   display: inline-block;
   float: left;
-  padding: 2%;
   /*display: inline;*/
 }
 
