@@ -71,7 +71,7 @@ section.welcome {
   overflow: hidden;*/
 }
 
-article.welcome {
+#welcome {
   box-sizing: border-box;
   width: 70%;
   display: inline-block;
