@@ -2,6 +2,9 @@ Issue | Description
 --------------------------------------------------------------------------------
 0000  |containing div class="welcome" is squashed and its constituents,
       |article="welcome", aside="welcome" appear below it
+--------------------------------------------------------------------------------
 0001  |navigation labels don't have space within their borders, padding makes
-      |the situation worse 
+      |the situation worse
+--------------------------------------------------------------------------------
+0002  |left pane not floating to the left even though width=33.3%
 --------------------------------------------------------------------------------
