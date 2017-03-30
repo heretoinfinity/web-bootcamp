@@ -51,8 +51,6 @@ nav li {
   border-width: 0 1px 0 0;
   border-color: white;
   text-align: center;
-  /*margin: 1%;*/
-  /*padding: 1%;*/
   height: inherit;
 }
 
@@ -62,13 +60,11 @@ nav li {
   border: solid;
   /*display: inline-block;*/
 }
-/*Welcome area*/
-section.welcome {
-  /*margin: 0;
-  padding: 0;*/
-  border: solid;
-  /*height: auto;
-  overflow: hidden;*/
+
+#main-content {
+  width: 70%
+  float: left;
+  display: inline-block;
 }
 
 #welcome {
@@ -77,29 +73,10 @@ section.welcome {
   display: inline-block;
   float: left;
   padding: 2%;
-  /*display: inline-block;*/
+  /*display: inline;*/
 }
 
-article.welcome > p, article.welcome > h1 {
-  border: solid;
-}
 
-aside.welcome {
-  border: solid 1px grey;
-  display: inline-block;
-  /*height: 50%;*/
-  box-sizing: border-box;
-  width: 30%;
-  /*clear: none;*/
-  float: right;
-  padding: 2%;
-  /*max-width: 50px;*/
-  /*overflow: hidden;*/
-  /*position: relative;
-  top: 5%;
-  right: 5%;*/
-
-}
 
 /*Left-pane*/
 #style-example {
@@ -109,6 +86,12 @@ aside.welcome {
   float: left;
 }
 
+/*Right-pane*/
+#right-pane {
+  width: 30%;
+  float: right;
+  display: inline-block;
+}
 /*Footer*/
 footer {
   clear: both;
