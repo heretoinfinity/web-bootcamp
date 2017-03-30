@@ -15,19 +15,18 @@
       </header>
       <nav>
         <ul>
-          <li> <a>First</a> </li>
+          <li> <a>First Page</a> </li>
           <li> <a>Second</a> </li>
           <li> <a>Third</a> </li>
           <li> <a>Fourth</a> </li>
           <li> <a>Fifth</a> </li>
-          <li> <a>Last</a> </li>
+          <li> <a>And the last one</a> </li>
        </ul>
       </nav>
 
       <div id="content">
-
-        <section class="welcome">
-          <article class="welcome">
+        <section id="main-content">
+          <article id="welcome">
             <h1>Welcome To Andreas08!</h1>
             <p>I get a lot of requests about new open source templates, and this
               one was created as a response to one of those requests. This
@@ -38,18 +37,16 @@
               than that, there are no special features or extras, only valid and
               well-structured XHTML 1.1 and CSS2 code.</p>
             <p>Current template version: 1.0 (November 28, 2005).</p>
-          </article>
+          </article><!--id="welcome"-->
 
-          <aside class="welcome">
+          <!-- <aside class="welcome">
             <p> <strong>Note:</strong> This is a box. It can be used for special
               messages both in the sidebar and the content section. You could use
               it for special notes and announcements, but also as a frame for
               photos. This space can be used for a short website presentation!</p>
-          </aside>
-        </section> <!--class="welcome"-->
+          </aside> -->
 
-        <div id="left-pane">
-          <section>
+          <article id="style-example">
             <h1>Included Style Examples:</h1>
 
             <div>
@@ -77,8 +74,45 @@
                 <dd>Definition list dd</dd>
               </dl>
             </div>
-          </section>
-        </div> <!--id="left-pane"-->
+          </article> <!--id="style-example" -->
+
+          <article id="about-designer">
+            <h1>About The Designer</h1>
+            <p>My name is Andreas Viklund, and I am a 25-years old professional
+              designer living in Jokkmokk, northern Sweden. If you are
+              interested in more advanced templates or custom design services,
+              don't hesitate to contact me for more information!</p>
+          <article id="open-source">
+            <h1>Open Source Template</h1>
+            <p>This is an open source template, which means that you are free
+              to use it in any way you want to without any obligations. If
+              you decide to use this template, I kindly ask you to leave the
+              "Design by Andreas Viklund" link in the footer. I am also
+              interested in seeing how my templates are used, so feel free to
+              send me an e-mail with a link to your page. If you want more
+              templates to choose from, check out the sites in the "Favorite
+              links" menu to the right!</p>
+            <p>Good luck with your new design!</p>
+          </article> <!-- id="open-source" -->
+        </section> <!-- id="main-content" -->
+
+        <aside>
+          <article id="box">
+            <p> <strong>Note:</strong> This is a box. It can be used for special
+              messages both in the sidebar and the content section. You could use
+              it for special notes and announcements, but also as a frame for
+              photos. This space can be used for a short website presentation!
+          </article>
+
+          <article id="nested-menu">
+          </article>
+
+          <article id="favorite-links">
+          </article>
+
+          <article id="search-site">
+          </article>
+        </aside>
         <footer>&copy; 2017 <b>PracticeName</b> | Design by <b>PracticeName</b> <br>
           Courtesy <b>SomeCompany </b>Thanks to <b>SomethingElse</b>
         </footer>
