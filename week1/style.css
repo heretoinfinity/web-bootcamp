@@ -85,6 +85,10 @@ nav li {
   float: left;
 }
 
+#about-designer {
+  clear: left;
+}
+
 /*Right-pane*/
 #right-pane {
   width: 30%;
