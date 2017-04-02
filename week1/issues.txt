@@ -1,10 +1,13 @@
 Issue | Description
 --------------------------------------------------------------------------------
-0000  |containing div class="welcome" is squashed and its constituents,
+0000X |containing div class="welcome" is squashed and its constituents,
       |article="welcome", aside="welcome" appear below it
+      |SOLUTION: Added display: inline-block, unchecking brings up the problem
+      |Squashed floats: https://css-tricks.com/almanac/properties/f/float/
 --------------------------------------------------------------------------------
-0001  |navigation labels don't have space within their borders, padding makes
-      |the situation worse
+0001X |SOLVED: navigation labels don't have space within their borders, padding
+      |makes the situation worse
+      |SOLUTION: Changed to display: table-cell
 --------------------------------------------------------------------------------
 0002X |SOLVED: right pane not floating to the right even though width=66.6%
 --------------------------------------------------------------------------------

@@ -9,7 +9,7 @@ body {
 }
 
 #main {
-  width: 85%;
+  width: 800px;
   margin: 5% auto;
   border-style: solid;
   border-color: grey;
@@ -31,7 +31,8 @@ h2.header-name {
 }
 
 /*Navigation area*/
-nav {
+nav.nav-list {
+  /*height: 30px;*/
   text-transform: uppercase;
   color: white;
   background-color: CornflowerBlue; /* #6495ED */
@@ -40,25 +41,34 @@ nav {
   border-color: none white black white;
 }
 
-nav ul {
+ul.nav-list {
+  height: inherit;
   list-style-type: none;
   padding: 0;
 }
 
-nav li {
-  display: inline;
+li.nav-list {
+  position: relative;
+  /*float: left;*/
+  /*top: 50%;*/
+  /*left: 50%;*/
+  /*transform: translate(-50%, 50%);*/
+  padding: 10px 10px;
+  display: table-cell;
   border-style: solid;
   border-width: 0 1px 0 0;
   border-color: white;
   text-align: center;
-  height: inherit;
+}
+
+li.nav-list:hover {
+  background-color: cyan;
 }
 
 /*Content area*/
 #content {
   margin: 1%;
-  border: solid;
-  /*display: inline-block;*/
+  display: inline-block;
 }
 
 #main-content {
@@ -67,24 +77,80 @@ nav li {
   padding: 2%;
 }
 
-#welcome {
+#welcome > p {
   box-sizing: border-box;
   /*display: inline;*/
+  font-size: small;
+  margin: 1em 0 1em 0;
 }
-
-
 
 /*Left-pane*/
 #style-example {
   clear: both;
   width: 50%;
+  height: 110;
   display: inline-block;
   float: left;
+  font-size: small;
 }
 
-#about-designer {
+#style-example > div {
+  padding: 3%;
+  border: solid 1px grey;
+  background-color: #f7f7f7;
+  margin: 5%;
+}
+
+#style-example > h1 {
+  font-size: 1.4em;
+}
+
+div > h2 {
+  font-size: 1.2em;
+}
+
+div > ul {
+  margin: 5% 0 5% 5%;
+}
+
+div > ol {
+margin: 5% 0 5% 5%;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dl > dd {
+  text-indent: 1em;
+}
+
+#colored-note {
+  color: red;
+}
+
+#reg-text {
+  margin: 5% 0;
+}
+
+article.about-designer {
   width: 50%;
   float: left;
+  font-size: small;
+}
+
+h2.about-designer, p.about-designer {
+  margin: 5% 0;
+}
+
+article.open-source {
+  width: 50%;
+  float: left;
+  font-size: small;
+}
+
+h1.open-source, p.open-source  {
+  margin: 5% 0;
 }
 
 /*Right-pane*/
@@ -104,7 +170,7 @@ nav li {
 }
 
 #nested-menu {
-  margin: 10% 0 0 0;
+  margin: 5% 0 0 0;
 }
 
 #nested-menu > a {

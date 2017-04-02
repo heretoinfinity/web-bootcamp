@@ -13,14 +13,14 @@
         <h1 class="header-name">andreas08: ignore the trends</h1>
         <h2 class="header-name">&Tab;space reserved for your website slogan!</h2>
       </header>
-      <nav>
-        <ul>
-          <li> <a>First Page</a> </li>
-          <li> <a>Second</a> </li>
-          <li> <a>Third</a> </li>
-          <li> <a>Fourth</a> </li>
-          <li> <a>Fifth</a> </li>
-          <li> <a>And the last one</a> </li>
+      <nav class="nav-list">
+        <ul class="nav-list">
+          <li class="nav-list"> <a>First Page</a> </li>
+          <li class="nav-list"> <a>Second</a> </li>
+          <li class="nav-list"> <a>Third</a> </li>
+          <li class="nav-list"> <a>Fourth</a> </li>
+          <li class="nav-list"> <a>Fifth</a> </li>
+          <li class="nav-list"> <a>And the last one</a> </li>
        </ul>
       </nav>
 
@@ -44,11 +44,11 @@
 
             <div>
               <h2>Sub-header example</h2>
-              <p>This is regular text, which is aligned to the left by default.
+              <p id="reg-text">This is regular text, which is aligned to the left by default.
                 You can easily change the alignment using the classes
                 .textcenter and .textright on each paragraph.</p>
-              <p>This is an important note!</p>
-              <p><a href="#main">This is a link.</a></p>
+              <p id="colored-note"><strong>This is an important note!</strong></p>
+              <p><a href="#main"><b>This is a link.</b></a></p>
               <p><strong>This is strong text.</strong></p>
               <p><small>This is small text.</small></p>
 
@@ -58,34 +58,36 @@
               </ul>
 
               <ol>
-                <li>Unordered list option 1</li>
-                <li>Unordered list option 2</li>
+                <li>Ordered list option 1</li>
+                <li>Ordered list option 2</li>
               </ol>
 
               <dl>
-                <dt>Definition list dt</dt>
+                <dt><def>Definition list dt</def></dt>
                 <dd>Definition list dd</dd>
               </dl>
             </div>
           </article> <!--id="style-example" -->
 
-          <article id="about-designer">
-            <h1>About The Designer</h1>
-            <p>My name is Andreas Viklund, and I am a 25-years old professional
+          <article class="about-designer">
+            <h1 class="about-designer">About The Designer</h1>
+            <p class="about-designer">My name is Andreas Viklund, and I am a 25-years old professional
               designer living in Jokkmokk, northern Sweden. If you are
               interested in more advanced templates or custom design services,
               don't hesitate to contact me for more information!</p>
-          <article id="open-source">
-            <h1>Open Source Template</h1>
-            <p>This is an open source template, which means that you are free
+          </article>
+          <article class="open-source">
+            <h1 class="open-source">Open Source Template</h1>
+            <p class="open-source">This is an open source template, which means that you are free
               to use it in any way you want to without any obligations. If
               you decide to use this template, I kindly ask you to leave the
               "Design by Andreas Viklund" link in the footer. I am also
               interested in seeing how my templates are used, so feel free to
               send me an e-mail with a link to your page. If you want more
               templates to choose from, check out the sites in the "Favorite
-              links" menu to the right!</p>
-            <p>Good luck with your new design!</p>
+              links" menu to the right!
+            </p>
+            <p><strong>Good luck with your new design!</strong></p>
           </article> <!-- id="open-source" -->
         </section> <!-- id="main-content" -->
 
@@ -96,7 +98,6 @@
               it for special notes and announcements, but also as a frame for
               photos. This space can be used for a short website presentation!
           </article>
-
           <article id="nested-menu">
             <h1>Nested Menu</h1>
             <a href="#main"><b>Menu option 1</b></a>
@@ -106,7 +107,6 @@
             <a href="#main"><b>Menu option 3</b></a>
             <a href="#main"><b>Menu option 4</b></a>
           </article>
-
           <article id="favorite-links">
             <h1>Favorite Links</h1>
             <a href="http://www.oswd.org/design/preview/id/2427/">Free website
@@ -116,7 +116,6 @@
             <a href="http://www.oswd.org/design/preview/id/2427/">sNews CMS</a>
             <a href="http://www.oswd.org/design/preview/id/2427/">OSWD.org</a>
           </article>
-
           <article id="search-site">
             <h1>Search This Site</h1>
             <form>
